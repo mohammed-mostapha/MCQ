@@ -109,7 +109,7 @@ function result() {
             range = 2;
         }
 
-        if ( correct > 0 && correct < 10 ) {
+        if ( correct > 4 && correct < 10 ) {
             range = 1;
         }
 
