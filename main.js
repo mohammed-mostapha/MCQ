@@ -1,1 +1,136 @@
-var _0xd349=["\x57\x68\x61\x74\x73\x20\x74\x68\x65\x20\x62\x72\x61\x6E\x64\x20\x6F\x66\x20\x79\x6F\x75\x20\x63\x61\x72\x3F\x20\x0A\x28\x61\x29\x43\x68\x65\x76\x72\x6F\x6C\x65\x74\x20\x0A\x20\x28\x62\x29\x4D\x65\x72\x63\x65\x64\x65\x73\x20\x0A\x20\x28\x63\x29\x42\x4D\x57","\x61","\x57\x68\x61\x74\x73\x20\x74\x68\x65\x20\x63\x6F\x6C\x6F\x72\x20\x6F\x66\x20\x79\x6F\x75\x20\x63\x61\x72\x3F\x20\x0A\x28\x61\x29\x52\x65\x64\x20\x0A\x20\x28\x62\x29\x47\x72\x65\x65\x6E\x20\x0A\x20\x28\x63\x29\x62\x6C\x75\x65","\x49\x73\x20\x79\x6F\x75\x72\x20\x63\x61\x72\x20\x63\x61\x70\x61\x63\x69\x74\x79\x20\x63\x79\x6C\x69\x6E\x64\x65\x72\x20\x0A\x28\x61\x29\x31\x34\x30\x30\x20\x43\x43\x20\x0A\x20\x28\x62\x29\x31\x36\x30\x30\x20\x43\x43\x20\x0A\x20\x28\x63\x29\x31\x38\x30\x30\x20\x43\x43","\x62","\x6C\x65\x6E\x67\x74\x68","\x70\x72\x6F\x6D\x70\x74","\x61\x6E\x73\x77\x65\x72","\x43\x6F\x72\x72\x65\x63\x74","\x57\x72\x6F\x6E\x67\x21","\x79\x6F\x75\x20\x67\x6F\x74\x20","\x2F"];var questions=[{prompt:_0xd349[0],answer:_0xd349[1]},{prompt:_0xd349[2],answer:_0xd349[1]},{prompt:_0xd349[3],answer:_0xd349[4]}];var score=0;for(var i=0;i< questions[_0xd349[5]];i++){var response=window[_0xd349[6]](questions[i][_0xd349[6]]);if(response== questions[i][_0xd349[7]]){score++;alert(_0xd349[8])}else {alert(_0xd349[9])}};alert(_0xd349[10]+ score+ _0xd349[11]+ questions[_0xd349[5]])
+// function check() {
+
+//     var question1 = document.quiz.question1.value,
+//         question2 = document.quiz.question2.value,
+//         question3 = document.quiz.question3.value,
+        
+//         correct = 0;
+
+//         if( question1 == "Providence" ) {
+//             correct++;
+//         }
+
+        
+//         if( question2 == "Hartford" ) {
+//             correct++;
+//         }
+
+        
+//         if( question3 == "Albany" ) {
+//             correct++;
+//         }
+
+
+
+//         var messages = ["Great Job!", "That's just okay", "You really need to do better..."],
+//         images = ["images/success.gif","images/passed.png", "images/mr.bean fail.gif"],
+//         range;
+
+//         if ( correct < 1 ) {
+//             range = 2;
+//         }
+
+//         if ( correct > 0 && correct < 3 ) {
+//             range = 1;
+//         }
+
+//         if ( correct > 2 ) {
+//             range = 0;
+//         }
+
+
+
+//     document.getElementById('after_submit').style.visibility = "visible";
+//     document.getElementById('message').innerHTML = messages[range];
+//     document.getElementById('number_correct').innerHTML="You got" + correct + " correct.";
+//     document.getElementById('impression').src = images[range];
+// }
+
+
+function result() {
+    var question1 = document.FMchapter14.question1.value,
+     question2 = document.FMchapter14.question2.value,
+     question3 = document.FMchapter14.question3.value,
+     question4 = document.FMchapter14.question4.value,
+     question5 = document.FMchapter14.question5.value,
+     question6 = document.FMchapter14.question6.value,
+     question7 = document.FMchapter14.question7.value,
+     question8 = document.FMchapter14.question8.value,
+     question9 = document.FMchapter14.question9.value,
+     question10 = document.FMchapter14.question10.value,
+ 
+    correct = 0;
+
+    if( question1 == "600 000 N/m<sup>2</sup>" ) {
+        correct++;
+    }
+
+    if( question2 == "1 800 ATM" ) {
+        correct++;
+    }
+
+    if( question3 == "0.050" ) {
+        correct++;
+    }
+
+    if( question4 == "1.8 x 10<sup>7</sup> kg/m<sup>3" ) {
+        correct++;
+    }
+
+    if( question5 == "1.41 x 10<sup>-3</sup> kg/m<sup>3</sup>" ) {
+        correct++;
+    }
+
+    if( question6 == "20.4 ATM" ) {
+        correct++;
+    }
+
+    if( question7 == "100 ATM" ) {
+        correct++;
+    }
+
+    if( question8 == "5.3 x 10<sup>18</sup>kg" ) {
+        correct++;
+    }
+
+    if( question9 == "214 kg" ) {
+        correct++;
+    }
+
+    if( question10 == "89%" ) {
+        correct++;
+    }
+
+    var messages = ["Great Job!", "That's just okay", "You really need to do better..."],
+        images = ["images/success.gif","images/passed.png", "images/mr.bean fail.gif"],
+        range;
+
+        if ( correct < 5 ) {
+            range = 2;
+        }
+
+        if ( correct > 0 && correct < 10 ) {
+            range = 1;
+        }
+
+        if ( correct > 9 ) {
+            range = 0;
+        }
+
+    document.getElementById('after_submit').style.display = "block";
+    document.getElementById('message').innerHTML = messages[range];
+    document.getElementById('number_correct').innerHTML="You got " + correct + " correct.";
+    document.getElementById('impression').src = images[range];
+
+    
+}
+
+
+$('.evaluator').click(function() {
+    $('form').css({'display': 'none'});
+    $('html,body').css({'background': '#fff'});
+});
+
+
+
+
