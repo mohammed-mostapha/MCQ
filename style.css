@@ -68,4 +68,23 @@ h1 {
 #impression {
     width: 100%;
 }
+
+
+.timer-container {
+    width: 150px;
+    height: fit-content;
+    background: rgb(172, 88, 172);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    right: 50px;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+#timer {
+    margin: 0;
+}
+
 /*end chapter 14 */

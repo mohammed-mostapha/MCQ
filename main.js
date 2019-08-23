@@ -1,51 +1,4 @@
-// function check() {
-
-//     var question1 = document.quiz.question1.value,
-//         question2 = document.quiz.question2.value,
-//         question3 = document.quiz.question3.value,
-        
-//         correct = 0;
-
-//         if( question1 == "Providence" ) {
-//             correct++;
-//         }
-
-        
-//         if( question2 == "Hartford" ) {
-//             correct++;
-//         }
-
-        
-//         if( question3 == "Albany" ) {
-//             correct++;
-//         }
-
-
-
-//         var messages = ["Great Job!", "That's just okay", "You really need to do better..."],
-//         images = ["images/success.gif","images/passed.png", "images/mr.bean fail.gif"],
-//         range;
-
-//         if ( correct < 1 ) {
-//             range = 2;
-//         }
-
-//         if ( correct > 0 && correct < 3 ) {
-//             range = 1;
-//         }
-
-//         if ( correct > 2 ) {
-//             range = 0;
-//         }
-
-
-
-//     document.getElementById('after_submit').style.visibility = "visible";
-//     document.getElementById('message').innerHTML = messages[range];
-//     document.getElementById('number_correct').innerHTML="You got" + correct + " correct.";
-//     document.getElementById('impression').src = images[range];
-// }
-
+/* chapter14 */
 
 function result() {
     var question1 = document.FMchapter14.question1.value,
@@ -129,8 +82,65 @@ function result() {
 $('.evaluator').click(function() {
     $('form').css({'display': 'none'});
     $('html,body').css({'background': '#fff'});
+    clearInterval(interval);
+    
 });
 
 
 
+var counter = 0,
+    timeLeft = 60;
 
+
+function pad2(number) {   
+     return (number < 10 ? '0' : '') + number
+}
+
+
+
+function convertSeconds(s) {
+    var min = Math.floor(s / 60),
+        sec = s % 60;
+        return pad2(min) + ': ' + pad2(sec);
+}
+
+
+
+var ding;
+
+function timerFinished() {
+    ding = new Audio('ding.mp3');
+    ding.play();
+}
+
+var interval;
+
+function setup() {
+   
+    var timer = document.querySelector('#timer');
+    timer.innerHTML = convertSeconds(timeLeft - counter);
+
+     interval = setInterval (timeIt, 1000);
+
+    function timeIt() {
+        counter++;
+        timer.innerHTML = convertSeconds(timeLeft - counter);
+
+        if(counter == timeLeft) {
+            timerFinished();
+            clearInterval(interval);
+            document.querySelector('form').style.display = 'none';
+            document.querySelector('body').style.background = '#fff';
+            result();
+            
+        }
+    }
+    
+}
+
+
+
+
+
+
+/* end chapter14 */
