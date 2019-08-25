@@ -18,7 +18,7 @@ function result() {
         correct++;
         document.querySelector('.q1').innerHTML = "1) " +  question1 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q1').innerHTML = "1) " + question1 + " <i class='fas fa-times'></i>" + "<br>" +  "  600 000 N/m<sup>2</sup>" + " <i class='fas fa-check'></i>" + "<br>"
+        document.querySelector('.q1').innerHTML = "1) " + question1 + " <i class='fas fa-times'></i>" + "<br>" +  "  600 000 N/m<sup>2</sup>" + " <i class='fas fa-check'></i>"+ "<br>"
     }
 
     if( question2 == "1 800 ATM" ) {
@@ -108,8 +108,8 @@ function result() {
         if ( correct > 9 ) {
             range = 0;
         }
-
-    document.getElementById('after_submit').style.display = "block";
+    
+    document.getElementById('after-evaluation').style.display = "flex";
     document.getElementById('message').innerHTML = messages[range];
     document.getElementById('number_correct').innerHTML="You got " + correct + " correct.";
     document.getElementById('impression').src = images[range];
@@ -128,7 +128,7 @@ $('.evaluator').click(function() {
 
 
 var counter = 0,
-    timeLeft = 20;
+    timeLeft = 60;
 
 
 function pad2(number) {   

@@ -23,13 +23,12 @@ form {
 }
 
 #after_submit {
-    display: none;
     text-align: center;
 }
 
 
 #after-evaluation {
-    display: flex;
+    display: none;
     justify-content: space-evenly;
     align-items: center;
     width: 100% !important;
@@ -42,24 +41,24 @@ form {
     }
 }
 
-.answers-container {
+#answers-container {
     width: fit-content;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.answers-container p {
+#answers-container p {
     margin: 0;
+    margin-left: 1rem;
     width: fit-content;
 }
 
-.answers-container .fa-check {
+#answers-container .fa-check {
     color: green;
 }
 
-.answers-container .fa-times {
+#answers-container .fa-times {
     color: red;
 }
 
