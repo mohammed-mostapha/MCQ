@@ -128,7 +128,7 @@ $('.evaluator').click(function() {
 
 
 var counter = 0,
-    timeLeft = 500;
+    timeLeft = 60;
 
 
 function pad2(number) {   
