@@ -16,80 +16,80 @@ function result() {
 
     if( question1 == "600 000 N/m<sup>2</sup>" ) {
         correct++;
-        document.querySelector('.q1').innerHTML = question1 + " <i class='fas fa-check'></i>";
+        document.querySelector('.q1').innerHTML = "1) " +  question1 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q1').innerHTML = question1 + " <i class='fas fa-times'></i>" + "  600 000 N/m<sup>2</sup>" + " <i class='fas fa-check'></i>"
+        document.querySelector('.q1').innerHTML = "1) " + question1 + " <i class='fas fa-times'></i>" + "<br>" +  "  600 000 N/m<sup>2</sup>" + " <i class='fas fa-check'></i>" + "<br>"
     }
 
     if( question2 == "1 800 ATM" ) {
         correct++;
-        document.querySelector('.q2').innerHTML = question2 + " <i class='fas fa-check'></i>";
+        document.querySelector('.q2').innerHTML = "2) " + question2 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q2').innerHTML = question2 + " <i class='fas fa-times'></i>" + "  1 800 ATM" + " <i class='fas fa-check'></i>"
+        document.querySelector('.q2').innerHTML = "2) " +  question2 + " <i class='fas fa-times'></i>" + "<br>" + "  1 800 ATM" + " <i class='fas fa-check'></i>" + "<br>"
 
     }
 
     if( question3 == "0.050" ) {
         correct++;
-        document.querySelector('.q3').innerHTML = question3 + " <i class='fas fa-check'></i>";
+        document.querySelector('.q3').innerHTML = "3) " +  question3 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q3').innerHTML = question3 + " <i class='fas fa-times'></i>" + "  0.050" + " <i class='fas fa-check'></i>"
+        document.querySelector('.q3').innerHTML = "3) " +   question3 + " <i class='fas fa-times'></i>" + "<br>" + "  0.050" + " <i class='fas fa-check'></i>" + "<br>"
 
     }
 
     if( question4 == "1.8 x 10<sup>7</sup> kg/m<sup>3" ) {
         correct++;
-        document.querySelector('.q4').innerHTML = question4 + " <i class='fas fa-check'></i>";
+        document.querySelector('.q4').innerHTML = "4) " +   question4 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q4').innerHTML = question4 + " <i class='fas fa-times'></i>" + "  1.8 x 10<sup>7</sup> kg/m<sup>3" + " <i class='fas fa-check'></i>"
+        document.querySelector('.q4').innerHTML = "4) " +   question4 + " <i class='fas fa-times'></i>" + "<br>" + "  1.8 x 10<sup>7</sup> kg/m<sup>3" + " <i class='fas fa-check'></i>" + "<br>"
 
     }
 
     if( question5 == "1.41 x 10<sup>-3</sup> kg/m<sup>3</sup>" ) {
         correct++;
-        document.querySelector('.q5').innerHTML = question5 + " <i class='fas fa-check'></i>";
+        document.querySelector('.q5').innerHTML = "5) " +  question5 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q5').innerHTML = question5 + " <i class='fas fa-times'></i>" +  "  1.41 x 10<sup>-3</sup> kg/m<sup>3</sup>" + " <i class='fas fa-check'></i>"
+        document.querySelector('.q5').innerHTML = "5) " +  question5 + " <i class='fas fa-times'></i>" + "<br>" +  "  1.41 x 10<sup>-3</sup> kg/m<sup>3</sup>" + " <i class='fas fa-check'></i>" + "<br>"
 
     }
 
     if( question6 == "20.4 ATM" ) {
         correct++;
-        document.querySelector('.q6').innerHTML = question6 + " <i class='fas fa-check'></i>";
+        document.querySelector('.q6').innerHTML = "6) " + question6 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q6').innerHTML = question6 + " <i class='fas fa-times'></i>" +  "  20.4 ATM" + " <i class='fas fa-check'></i>"
+        document.querySelector('.q6').innerHTML = "6) " + question6 + " <i class='fas fa-times'></i>" + "<br>" +  "  20.4 ATM" + " <i class='fas fa-check'></i>"+ "<br>"
 
     }
 
     if( question7 == "100 ATM" ) {
         correct++;
-        document.querySelector('.q7').innerHTML = question7 + " <i class='fas fa-check'></i>";
+        document.querySelector('.q7').innerHTML = "7) " + question7 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q7').innerHTML = question7 + " <i class='fas fa-times'></i>" +  "  100 ATM" + " <i class='fas fa-check'></i>"
+        document.querySelector('.q7').innerHTML = "7) " + question7 + " <i class='fas fa-times'></i>" + "<br>" +  "  100 ATM" + " <i class='fas fa-check'></i>"+ "<br>"
 
     }
 
     if( question8 == "5.3 x 10<sup>18</sup>kg" ) {
         correct++;
-        document.querySelector('.q8').innerHTML = question8 + " <i class='fas fa-check'></i>";
+        document.querySelector('.q8').innerHTML = "8) " + question8 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q8').innerHTML = question8 + " <i class='fas fa-times'></i>" +  "  5.3 x 10<sup>18</sup>kg" + " <i class='fas fa-check'></i>"
+        document.querySelector('.q8').innerHTML = "8) " + question8 + " <i class='fas fa-times'></i>" + "<br>" +  "  5.3 x 10<sup>18</sup>kg" + " <i class='fas fa-check'></i>"+ "<br>"
 
     }
 
     if( question9 == "214 kg" ) {
         correct++;
-        document.querySelector('.q9').innerHTML = question9 + " <i class='fas fa-check'></i>";
+        document.querySelector('.q9').innerHTML = "9) " + question9 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q9').innerHTML = question9 + " <i class='fas fa-times'></i>" +  "  214 kg" + " <i class='fas fa-check'></i>"
+        document.querySelector('.q9').innerHTML = "9) " + question9 + " <i class='fas fa-times'></i>" + "<br>" +  "  214 kg" + " <i class='fas fa-check'></i>" + "<br>" 
 
     }
 
     if( question10 == "89%" ) {
         correct++;
-        document.querySelector('.q10').innerHTML = question10 + " <i class='fas fa-check'></i>";
+        document.querySelector('.q10').innerHTML = "10) " + question10 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q10').innerHTML = question10 + " <i class='fas fa-times'></i>" +  "  89%" + " <i class='fas fa-check'></i>"
+        document.querySelector('.q10').innerHTML = "10) " + question10 + " <i class='fas fa-times'></i>" + "<br>" +  "  89%" + " <i class='fas fa-check'></i>" + "<br>" 
 
     }
 
@@ -128,7 +128,7 @@ $('.evaluator').click(function() {
 
 
 var counter = 0,
-    timeLeft = 60;
+    timeLeft = 20;
 
 
 function pad2(number) {   
