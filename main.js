@@ -1,3 +1,27 @@
+
+/*homepage*/
+
+
+function toggleSidebar() {
+    document.getElementById("sidebar-menu").classList.toggle('active');
+    document.getElementById("homepage_body").classList.toggle('active');
+
+  }
+  
+  
+  $("#toggle-button").click(function(){
+    $(this).toggleClass("active")
+  });
+
+
+/*end homepage*/
+
+
+
+
+
+
+
 /* chapter14 */
 
 function result() {
@@ -176,9 +200,6 @@ function setup() {
     }
     
 }
-
-
-
 
 
 
