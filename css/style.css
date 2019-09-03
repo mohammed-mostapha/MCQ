@@ -23,6 +23,12 @@ html, body {
 }
 
 
+@media only screen and (max-width: 388px) {
+    .homepage_container {
+        height: auto;
+    }
+}
+
 
 
 .math1_index_container {
@@ -142,7 +148,6 @@ html, body {
     color: #fff;
     text-decoration: none;
     margin: auto;
-    padding: 2rem;
 }
 
 .exams-links div a i {
