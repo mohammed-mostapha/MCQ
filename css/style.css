@@ -193,13 +193,14 @@ html, body {
     .before_exam img {
         max-width: 70%;
         max-height: 70%;
+        border-radius: 20px;
     }
 
 
 
     @media only screen and (max-width: 1019px) {
         .before_exam img {
-            width: 50%;
+            width: 70%;
             height: 100%;
         }
     }
@@ -215,7 +216,7 @@ html, body {
     .proceed {
         width: fit-content;
         margin: 0 auto;
-        padding: 1rem;
+        padding: 0.5rem;
         border-radius: 5px;
         background-color: lightseagreen;
     }
@@ -299,6 +300,7 @@ header {
 .hamburger-container #toggle-button {
     display: none;
     align-self: center;
+    margin-right: 1rem;
 }
 
 
@@ -578,6 +580,7 @@ h1 {
 .timer-container {
     width: 150px;
     height: fit-content;
+    padding-top: 0.5rem;
     background: rgb(172, 88, 172);
     color: #fff;
     position: fixed;
