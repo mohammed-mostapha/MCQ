@@ -4,7 +4,7 @@
 
 function toggleSidebar() {
     document.getElementById("sidebar-menu").classList.toggle('active');
-    document.getElementById("homepage_body").classList.toggle('active');
+    document.getElementById("body").classList.toggle('active');
 
   }
   

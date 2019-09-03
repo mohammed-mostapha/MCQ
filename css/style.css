@@ -11,57 +11,147 @@ html, body {
     overflow-x: hidden;
 }
 
-.container {
-    width: 100%;
+.homepage_container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
     height: 100%;
-    background: url(images/mechanical-pattern.gif);
+    background: url(/images/eng.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
 }
 
 
-.courses-container {
-    width: 40%;
-    height: 40%;
-    position: relative;
-    top: 10%;
-    margin: 0 auto;
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    background: rgb(255, 45, 108, 0.5);
-    border-radius: 1rem  1rem 1rem 1rem;
+
+
+.math1_index_container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    height: 100%;
+    
 }
 
-.courses-container > * {
-    width: 10vh;
-    height: 10vh;
-    background: rgb(89, 190, 185);
-    box-shadow: 0 0 30px 0 grey;
-    border-radius: 30%;
-    margin: auto;
-    font-size: 2vh;
+.m1-ch1 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    /* width: 70%; */
+    padding: 1rem;
+}
+
+.m1-ch1 h6 {
+    width: 70%;
+}
+.m1-ch1-details {
+    border: 1px solid blue;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.m1-ch1-details div {
+    padding: 1rem;
+
+}
+
+.m1-ch1-details div a {
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 0.7rem;
+    background: rgb(61, 147, 228);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 2vh;
+}
+
+
+@media only screen and (max-width: 243px) {
+    .m1-ch1-details div a {
+        font-size: 1.3vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+.exams-container {
+    width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    top: 10%;
+    padding: 1rem;
+    border: 2px solid #000;
+}
+
+
+
+.exams-wording {
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+}
+
+.exams-wording h3 {
+    margin: 0;
+    font-size: 6vh;
+}
+
+
+
+.exams-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 2vh;
     text-align: center;
     text-decoration: none;
     color: #fff;
+}
 
+.exams-links  div {
+    margin: 0.5rem;
 }
 
 
-
-.courses-container a:hover {
-    transform: scale(1.1);
-}
-
-.courses_container div a {
-    width: 100%;
-    height: 100%;
+.exams-links a {
+    width: 9vh;
+    height: 9vh;
+    margin: auto;
     cursor: pointer;
+    border-radius: 30%;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items :center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
+}
+
+.exams-links div a i {
+    margin-bottom: 5px;
+}
+
+.svg-inline--fa {
+    font-size: 1.5rem !important;
+}
+
+
+
+.exams-links a:hover {
+    transform: scale(1.1);
 }
 
 
@@ -77,6 +167,7 @@ html, body {
         padding: 2rem;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        grid-gap: 1rem;
         margin-bottom: 3rem;
     }
 
@@ -88,9 +179,19 @@ html, body {
 
 
     .before_exam img {
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 70%;
+        max-height: 70%;
     }
+
+
+
+    @media only screen and (max-width: 1019px) {
+        .before_exam img {
+            width: 50%;
+            height: 100%;
+        }
+    }
+
 
     .wording {
         display: flex;
@@ -296,13 +397,13 @@ header {
     border-bottom: 1px solid #000;
 }
 
- #homepage_body {
+ #body {
     position: relative;
     left: 0;
     transition: all 500ms linear;
 }
 
-#homepage_body.active {
+#body.active {
     left: -10rem;
 }
  
@@ -478,5 +579,20 @@ h1 {
 #timer {
     margin: 0;
 }
+
+
+.return-to-homepage  {
+    width: fit-content;
+    text-decoration: none;
+    color: red;
+    padding: 1rem;
+    border: 1px solid pink;
+}
+
+.return-to-homepage a {
+    color: red;
+}
+
+
 
 /*end chapter 14 */
