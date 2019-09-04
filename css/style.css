@@ -13,13 +13,26 @@ html, body {
 
 .homepage_container {
     width: 100% !important;
+    height: 100%;
     max-width: 100% !important;
     margin: 0 !important;
-    height: 100%;
     background: url(/images/eng.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
+}
+
+
+
+@media only screen and (orientation: landscape) {
+    .homepage_container {
+        height: auto !important;
+    }
+
+    .exams-links a {
+        transform: scale(1.5);
+        padding: 1.2rem;
+    }
 }
 
 
@@ -107,7 +120,6 @@ html, body {
 
 .exams-wording h3 {
     margin: 0;
-    font-size: 6vh;
 }
 
 
@@ -123,6 +135,12 @@ html, body {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+
+
+.exams-links a span {
+    font-size: 0.5rem;
+}
+
 
 
 .exams-links  div {
