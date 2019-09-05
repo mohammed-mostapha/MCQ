@@ -5,7 +5,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     font-family: 'Gayathri', sans-serif;
     font-weight: 900;
     overflow-x: hidden;
@@ -13,27 +13,15 @@ html, body {
 
 .homepage_container {
     width: 100% !important;
-    /* height: 100%; */
+    height: 100%;
     max-width: 100% !important;
     margin: 0 !important;
+    padding-top: 5rem;
     background: url(/images/eng.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
 }
-
-
-/* 
-@media only screen and (orientation: landscape) {
-    .homepage_container {
-        height: auto !important;
-    }
-
-    .exams-links a {
-        transform: scale(1.5);
-        padding: 1.2rem;
-    }
-} */
 
 
 
@@ -99,14 +87,11 @@ html, body {
     width: 100%;
     max-height: 100%;
     box-sizing: border-box;
-    position: relative;
-    top: 10%;
     padding: 1rem;
     border: 5px solid #fff;
     border-radius: 10px;
     margin: 0 !important;
 }
-
 
 
 .exams-wording {
