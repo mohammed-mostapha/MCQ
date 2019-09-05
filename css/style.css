@@ -49,9 +49,8 @@ html, body {
 }
 .m1-ch1-details {
     /* border: 1px solid blue; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: block;
+  
 }
 
 .m1-ch1-details div {
@@ -124,7 +123,7 @@ html, body {
 
 
 .exams-links a span {
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 
 
@@ -156,12 +155,10 @@ html, body {
     margin: auto;
 }
 
-.exams-links div a i {
-    margin-bottom: 5px;
-}
 
 .svg-inline--fa {
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
+    margin-bottom: 10px;
 }
 
 
@@ -606,10 +603,21 @@ h1 {
     color: red;
     padding: 1rem;
     border: 1px solid pink;
+    background: #fff;
+
 }
 
-.return-to-homepage a {
-    color: red;
+
+.return-to-homepage span {
+    margin-left: 5px;
+}
+
+
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    position: relative;
+    top: 3px;
 }
 
 
