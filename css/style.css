@@ -13,7 +13,7 @@ html, body {
 
 .homepage_container {
     width: 100% !important;
-    height: 100%;
+    /* height: 100%; */
     max-width: 100% !important;
     margin: 0 !important;
     background: url(/images/eng.gif);
@@ -23,7 +23,7 @@ html, body {
 }
 
 
-
+/* 
 @media only screen and (orientation: landscape) {
     .homepage_container {
         height: auto !important;
@@ -33,7 +33,7 @@ html, body {
         transform: scale(1.5);
         padding: 1.2rem;
     }
-}
+} */
 
 
 
