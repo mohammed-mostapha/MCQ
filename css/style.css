@@ -24,6 +24,14 @@ html, body {
 }
 
 
+@media only screen and (orientation: landscape) {
+    .homepage_container {
+        height: unset;
+    }
+}
+
+
+
 
 .math1_index_container {
     width: 100% !important;
