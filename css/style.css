@@ -22,6 +22,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
+    overflow-y: scroll;
 }
 
 
@@ -78,19 +79,18 @@ html, body {
 
 
 
-
-
-
-
-
-
 .exams-container {
     width: 100%;
     box-sizing: border-box;
     padding: 1rem;
     border: 5px solid #fff;
     border-radius: 10px;
-    margin: 0 !important;
+    margin: 0;
+    margin-bottom: 5rem;
+}
+
+.exams-container h3 {
+    border-bottom: 2px solid #fff;
 }
 
 
@@ -110,9 +110,6 @@ html, body {
 
 
 .exams-links {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
     font-size: 2vh;
     text-align: center;
     text-decoration: none;
@@ -156,8 +153,91 @@ html, body {
 }
 
 
+ .math1 a .svg-inline--fa {
+    color: rgba(221, 125, 118);
+}
+
+ .math2 a .svg-inline--fa {
+    color: rgb(58, 216, 105);
+}
+
+.math3 a .svg-inline--fa {
+    color:rgb(83, 65, 133);
+}
+
+.math4 a .svg-inline--fa {
+    color: rgb(89, 173, 102);
+}
+
+.math5 a .svg-inline--fa {
+    color: rgb(83, 65, 133);
+}
+
+.math6 a .svg-inline--fa {
+    color: rgb(216, 91, 185);
+}
+
+
+.physics1 a .svg-inline--fa {
+    color: rgba(221, 125, 118);
+}
+
+
+.physics2 a .svg-inline--fa {
+    color: rgba(221, 125, 118);
+}
+
+
+.physics3 a .svg-inline--fa {
+    color:rgb(83, 65, 133);
+}
+
+
+.computer a .svg-inline--fa {
+    color:rgba(221, 125, 118);
+}
+
+.logic1 a .svg-inline--fa {
+    color: rgb(58, 216, 105);
+}
+
+.circuit1 a .svg-inline--fa {
+    color:rgb(83, 65, 133);
+}
+
+.circuit2 a .svg-inline--fa {
+    color: rgb(89, 173, 102);
+}
+
+
+.electronics1 a .svg-inline--fa {
+    color:rgb(83, 65, 133);
+}
+
+
+.electronics2 a .svg-inline--fa {
+    color:rgb(216, 91, 185);
+}
+
+
+.e-m-fields a .svg-inline--fa {
+    color:rgba(221, 125, 118);
+}
+
+.sec-phy-2 a .svg-inline--fa {
+    color:rgba(221, 125, 118);
+}
+
+
+.sec-phy-3 a .svg-inline--fa {
+    color:rgb(83, 65, 133);
+}
+
+
+
 .svg-inline--fa {
     font-size: 2rem !important;
+    
     
 }
 
