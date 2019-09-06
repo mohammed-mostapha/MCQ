@@ -236,7 +236,7 @@ html, body {
 
 
 .svg-inline--fa {
-    font-size: 2rem !important;
+    font-size: 2.5rem !important;
     
     
 }
@@ -329,11 +329,13 @@ header {
     text-transform: uppercase;
     box-sizing: border-box;
     border-bottom: 1px solid black;
-    background: rgb(50, 136, 132);
+    /* background: rgb(50, 136, 132); */
+    background: #fff;
   }
 
   .hamburger-container .menu a {
-      color: #fff;
+      /* color: #fff; */
+      color: #000;
   }
   
 
