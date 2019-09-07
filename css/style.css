@@ -9,6 +9,7 @@ html, body {
     font-family: 'Gayathri', sans-serif;
     font-weight: 900;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .homepage_container {
@@ -24,6 +25,34 @@ html, body {
     background-position: center center;
     overflow-y: scroll;
 }
+
+/*icons*/
+
+.math1,
+.math2,
+.math3,
+.math4,
+.math5,
+.math6,
+.physics1,
+.physics2,
+.physics3,
+.computer,
+.logic1,
+.circuit1,
+.circuit2,
+.electronics1,
+.electronics2,
+.e-m-fields,
+.sec-phy-2,
+.sec-phy-3{
+    background: #fff;
+    border-radius: 20%;
+}
+
+
+
+/*end icons*/
 
 
 
@@ -64,7 +93,7 @@ html, body {
     box-sizing: border-box;
     padding: 0.7rem;
     background: rgb(61, 147, 228);
-    color: #fff;
+    /* color: #fff; */
     border-radius: 10px;
     font-size: 2vh;
     text-decoration: none;
@@ -121,6 +150,7 @@ html, body {
 
 .exams-links a span {
     font-size: 1rem;
+    color: #000;
 }
 
 
@@ -249,7 +279,14 @@ html, body {
     margin-bottom: 5px;
 }
 
-.exams-links a:hover {
+
+.exams-links div div {
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+
+
+.exams-links div div:hover {
     transform: scale(1.1);
 }
 
