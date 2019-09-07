@@ -286,6 +286,15 @@ html, body {
 }
 
 
+@media only screen and (orientation: landscape) {
+    .exams-links div div {
+        box-sizing: border-box;
+        padding: 1.5rem;
+    }
+    
+}
+
+
 .exams-links div div:hover {
     transform: scale(1.1);
 }
