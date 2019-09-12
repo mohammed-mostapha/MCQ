@@ -761,8 +761,8 @@ svg:not(:root).svg-inline--fa {
     color: #fff;
 }
 
-.list-unstyled {
-    color: #fff;
+.list-unstyled li a {
+    color: #fff !important;
 }
 
 .social-media-links {
@@ -773,12 +773,12 @@ svg:not(:root).svg-inline--fa {
 
 }
 
-.fa-whatsapp-square {
-    color: #51C458;
+.fa-whatsapp {
+    color: #fff;
 }
 
-.fa-facebook {
-    color: #395795;
+.fa-facebook-f{
+    color: #fff;
 }
 
 .fa-mobile-alt {
@@ -787,5 +787,9 @@ svg:not(:root).svg-inline--fa {
 
 .footer-copyright {
     margin: auto;
+}
+
+.footer-copyright a {
+    color : #fff;
 }
 /*end footer*/
