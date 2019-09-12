@@ -18,7 +18,7 @@ html, body {
     max-width: 100% !important;
     margin: 0 !important;
     padding-top: 2rem;
-    padding-bottom: 20rem;
+    padding-bottom: 4rem;
     background: url(/images/cubes.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -749,3 +749,43 @@ svg:not(:root).svg-inline--fa {
 
 
 /*end chapter 14 */
+
+
+
+
+/*foorer*/
+
+
+.page-footer {
+    background: #000;
+    color: #fff;
+}
+
+.list-unstyled {
+    color: #fff;
+}
+
+.social-media-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fa-whatsapp-square {
+    color: #51C458;
+}
+
+.fa-facebook {
+    color: #395795;
+}
+
+.fa-mobile-alt {
+    color: #fff;
+}
+
+.footer-copyright {
+    margin: auto;
+}
+/*end footer*/
