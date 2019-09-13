@@ -371,12 +371,6 @@ header {
     background: #fff;
   }
 
-  .hamburger-container .menu a {
-      /* color: #fff; */
-      color: #4186C6;
-      font-weight: 900;
-  }
-  
 
 
   .logo {
@@ -427,6 +421,7 @@ header {
 .hamburger-container .menu a {
     align-self: flex-end;
     text-decoration: none;
+    color: #4186C6;
     margin: 0 10px;
     padding-top: 1rem;
     font-size: 1.5rem !important;
@@ -458,9 +453,9 @@ header {
 .line-1, .line-2, .line-3 {
 	cursor: pointer;
 	border-radius: 4px;
-	height: 2px;
+	height: 4px;
 	width: 40px;
-	background: #000;
+	background: #4186C6;
 	position: relative;
 	display: block;
     content: '';
