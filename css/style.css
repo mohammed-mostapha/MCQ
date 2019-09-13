@@ -151,7 +151,7 @@ html, body {
 
 .exams-links a span {
     font-size: 1rem;
-    color: #000;
+    color: #4186C6;
 }
 
 
@@ -533,7 +533,7 @@ header {
 
 #sidebar-menu ul a {
     text-decoration: none;
-    color: #000;
+    color: #4186C6;
 }
 
 #sidebar-menu ul li {
@@ -769,6 +769,10 @@ svg:not(:root).svg-inline--fa {
 
 .list-unstyled li a {
     color: #fff !important;
+}
+
+.list-unstyled li a svg {
+    font-size: 1.5rem !important;
 }
 
 .social-media-links {
