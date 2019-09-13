@@ -9,21 +9,20 @@ html, body {
     font-family: 'Gayathri', sans-serif;
     font-weight: 900;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .homepage_container {
     width: 100% !important;
-    height: 100%;
+    height: fit-content;
     max-width: 100% !important;
     margin: 0 !important;
     padding-top: 2rem;
-    padding-bottom: 4rem;
     background: url(/images/cubes.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
-    overflow-y: scroll;
+    background-attachment: fixed;
+
 }
 
 /*icons*/
