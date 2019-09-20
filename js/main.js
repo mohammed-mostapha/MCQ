@@ -204,3 +204,17 @@ function setup() {
 
 
 /* end chapter14 */
+
+
+
+/* About */
+
+
+$(window).on('load', function() {
+    $('.handasa').addClass('animated-handasa');
+    $('.bio-list').addClass('animated-bio-list');
+});
+
+
+
+/* end About */
