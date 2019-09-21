@@ -1,0 +1,7 @@
+tasks:
+
+-social media links fixed at lef side
+
+-search bar
+
+
