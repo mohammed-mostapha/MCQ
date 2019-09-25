@@ -778,7 +778,9 @@ a {
 
 
 .bio-container {
-    height: calc(100vh - 2rem);
+    /* height: calc(100vh - 2rem); */
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
 }
 
 .bio-container > * {
@@ -867,7 +869,8 @@ a {
 
 .scope-of-work {
     color: #fff;
-    height: 100vh;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
     font-family: 'Courgette', cursive;
     font-size: 2rem;
     display: flex;
@@ -898,7 +901,8 @@ a {
 
 .training-skills {
     color: #fff;
-    height: 100vh;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
     font-family: 'Courgette', cursive;
     font-size: 1.7rem;
     display: flex;
@@ -923,7 +927,8 @@ a {
 
 .training-courses {
     color: #fff;
-    height: 100vh;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
     font-family: 'Courgette', cursive;
     font-size: 2rem;
     display: flex;
@@ -949,7 +954,8 @@ a {
 
 .past-projects {
     color: #fff;
-    height: 100vh;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
     font-family: 'Courgette', cursive;
     font-size: 2rem;
     display: flex;
