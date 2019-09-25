@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 
 html, body {
     width: 100%;
@@ -8,7 +9,7 @@ html, body {
     /* font-size: 1.2rem; */
     font-family: 'Gayathri', sans-serif;
     font-weight: 900;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .homepage_container {
@@ -765,25 +766,24 @@ a {
 
 /* About */
 
-.about-body {
-    background: rgb(32, 102, 168);
-}
-
-
 
 .about_container {
     width: 100% !important;
     max-width: 100% !important;
-    height: 100%;
+    height: auto;
     margin: 0 !important;
     padding-top: 2rem;
+    background: rgb(32, 102, 168);
 }
 
 
+.bio-container {
+    height: calc(100vh - 2rem);
+}
 
 .bio-container > * {
-    /* border: 5px solid red; */
     color: #fff;
+    height: 100%;
 
 }
 
@@ -801,12 +801,14 @@ a {
 }
 
 .bio-list {
-    font-family: monospace;
-    font-size: 1.8rem;
+    font-family: 'Courgette', cursive;
+    font-size: 1.5rem;
+    font-weight: normal;
 }
 
 .bio-list li {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; 
+    
 }
 
 
@@ -840,6 +842,10 @@ a {
 .animated-bio-list {
     display: block;
     animation: 1.5s ease 0s 1 bioFromRight;
+    list-style: none;
+    background: #fff;
+    color: #2066A8;
+    border-radius: 20px;
 }
 
 
@@ -851,6 +857,123 @@ a {
         transform: translateX(0%); 
 }
 
+}
+
+
+.aos-init {
+    width: 70%;
+}
+
+
+.scope-of-work {
+    color: #fff;
+    height: 100vh;
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(28, 131, 138);
+}
+
+.scope-of-work h1 {
+    border: none;
+    width: auto;
+    text-align: center;
+}
+
+.scope-of-work .aos-init {
+    background: #fff;
+    color: rgb(28, 131, 138);
+    border-radius: 20px;
+}
+
+
+
+.scope-list li, .training-skills-list li , .training-courses-list li, .past-projects-list li {
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+.training-skills {
+    color: #fff;
+    height: 100vh;
+    border: 5px solid #fff;
+    font-family: 'Courgette', cursive;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(121, 67, 111);
+}
+
+.training-skills h1 {
+    border: none;
+    width: auto;
+    text-align: center;
+}
+
+.training-skills .aos-init {
+    background: #fff;
+    color: rgb(121, 67, 111);
+    border-radius: 20px;
+}
+
+
+.training-courses {
+    color: #fff;
+    height: 100vh;
+    border: 5px solid #fff;
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(105, 101, 35);
+}
+
+.training-courses h1 {
+    border: none;
+    width: auto;
+    text-align: center;
+
+}
+
+.training-courses .aos-init {
+    background: #fff;
+    color: rgb(105, 101, 35);
+    border-radius: 20px
+}
+
+
+.past-projects {
+    color: #fff;
+    height: 100vh;
+    border: 5px solid #fff;
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(117, 78, 207);
+    
+}
+
+.past-projects h1 {
+    border: none;
+    width: auto;
+    text-align: center;
+
+}
+
+.past-projects .aos-init {
+    background: #fff;
+    color:  rgb(117, 78, 207);;
+    border-radius: 20px;
 }
 
 
