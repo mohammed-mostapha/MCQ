@@ -899,7 +899,6 @@ a {
 .training-skills {
     color: #fff;
     height: 100vh;
-    border: 5px solid #fff;
     font-family: 'Courgette', cursive;
     font-size: 1.7rem;
     display: flex;
@@ -925,7 +924,6 @@ a {
 .training-courses {
     color: #fff;
     height: 100vh;
-    border: 5px solid #fff;
     font-family: 'Courgette', cursive;
     font-size: 2rem;
     display: flex;
@@ -952,7 +950,6 @@ a {
 .past-projects {
     color: #fff;
     height: 100vh;
-    border: 5px solid #fff;
     font-family: 'Courgette', cursive;
     font-size: 2rem;
     display: flex;
