@@ -866,6 +866,12 @@ a {
     width: 70%;
 }
 
+@media only screen and (max-width: 600px) {
+    .aos-init {
+        font-size: 0.8rem;
+    }
+}
+
 
 .scope-of-work {
     color: #fff;
