@@ -870,6 +870,10 @@ a {
     .aos-init {
         font-size: 0.9rem;
     }
+
+    .aos-init ul li {
+        margin-bottom: 0.5rem;
+    }
 }
 
 
