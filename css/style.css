@@ -783,6 +783,12 @@ a {
     height: calc(var(--vh, 1vh) * 100);
 }
 
+@media only screen and (max-width: 767px) {
+    .bio-container {
+        height: unset;
+    }
+}
+
 .bio-container > * {
     color: #fff;
     height: 100%;
@@ -870,16 +876,12 @@ a {
     .aos-init {
         font-size: 0.9rem;
     }
-
-    .aos-init ul li {
-        margin-bottom: 0.5rem;
-    }
 }
 
 
-.scope-of-work {
+.scope-of-work-container {
     color: #fff;
-    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     font-family: 'Courgette', cursive;
     font-size: 2rem;
@@ -890,13 +892,13 @@ a {
     background: rgb(28, 131, 138);
 }
 
-.scope-of-work h1 {
+.scope-of-work-container h1 {
     border: none;
     width: auto;
     text-align: center;
 }
 
-.scope-of-work .aos-init {
+.scope-of-work-container .aos-init {
     background: #fff;
     color: rgb(28, 131, 138);
     border-radius: 20px;
