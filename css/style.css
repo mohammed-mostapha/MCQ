@@ -778,8 +778,7 @@ a {
 
 
 .bio-container {
-    /* height: calc(100vh - 2rem); */
-    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
 }
 
@@ -931,8 +930,10 @@ a {
 }
 
 .training-skills {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     color: #fff;
-    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     font-family: 'Courgette', cursive;
     font-size: 1.7rem;
@@ -970,7 +971,7 @@ a {
 
 .training-courses {
     color: #fff;
-    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     font-family: 'Courgette', cursive;
     font-size: 2rem;
@@ -1010,7 +1011,7 @@ a {
 
 .past-projects {
     color: #fff;
-    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     font-family: 'Courgette', cursive;
     font-size: 2rem;
