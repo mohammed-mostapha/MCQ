@@ -890,8 +890,9 @@ a {
 
 .scope-of-work-container {
     color: #fff;
-    height: 50vh;
-    height: calc(var(--vh, 1vh) * 50);
+    /* height: 50vh;
+    height: calc(var(--vh, 1vh) * 50); */
+    height: auto;
     padding-top: 5rem;
     padding-bottom: 5rem;
     font-family: 'Courgette', cursive;
