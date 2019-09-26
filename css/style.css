@@ -858,8 +858,13 @@ a {
     background: #fff;
     color: #2066A8;
     border-radius: 20px;
+    padding-left: 0;
+
 }
 
+.animated-bio-list li {
+    text-align: center;
+}
 
 @keyframes bioFromRight {
     0% {
@@ -887,6 +892,8 @@ a {
     color: #fff;
     height: 50vh;
     height: calc(var(--vh, 1vh) * 50);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     font-family: 'Courgette', cursive;
     font-size: 2rem;
     display: flex;
@@ -896,6 +903,9 @@ a {
     background: rgb(28, 131, 138);
 }
 
+.scope-of-work-container .aos-init {
+    width: 90%;
+}
 
 .scope-list {
     padding-left: 0;
@@ -945,6 +955,10 @@ a {
     background: rgb(121, 67, 111);
 }
 
+.training-skills .aos-init {
+    width: 90%;
+}
+
 .training-skills-list {
     padding-left: 0;
     display: flex;
@@ -975,7 +989,8 @@ a {
     /* height: 70vh; */
     /* height: calc(var(--vh, 1vh) * 70); */
     height: auto;
-    padding: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     font-family: 'Courgette', cursive;
     font-size: 2rem;
     display: flex;
@@ -984,6 +999,11 @@ a {
     justify-content: center;
     background: rgb(105, 101, 35);
 }
+
+.training-courses .aos-init {
+    width: 90%;
+}
+
 
 .training-courses h1 {
     border: none;
@@ -1017,7 +1037,8 @@ a {
     /* height: 50vh; */
     /* height: calc(var(--vh, 1vh) * 50); */
     height: auto;
-    padding: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     font-family: 'Courgette', cursive;
     font-size: 2rem;
     display: flex;
@@ -1027,6 +1048,12 @@ a {
     background: rgb(117, 78, 207);
     
 }
+
+.past-projects .aos-init {
+    width: 90%;
+}
+
+
 
 .past-projects h1 {
     border: none;
