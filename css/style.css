@@ -885,8 +885,8 @@ a {
 
 .scope-of-work-container {
     color: #fff;
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
+    height: 50vh;
+    height: calc(var(--vh, 1vh) * 50);
     font-family: 'Courgette', cursive;
     font-size: 2rem;
     display: flex;
@@ -972,8 +972,10 @@ a {
 
 .training-courses {
     color: #fff;
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
+    /* height: 70vh; */
+    /* height: calc(var(--vh, 1vh) * 70); */
+    height: auto;
+    padding: 2rem;
     font-family: 'Courgette', cursive;
     font-size: 2rem;
     display: flex;
@@ -1012,8 +1014,10 @@ a {
 
 .past-projects {
     color: #fff;
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
+    /* height: 50vh; */
+    /* height: calc(var(--vh, 1vh) * 50); */
+    height: auto;
+    padding: 2rem;
     font-family: 'Courgette', cursive;
     font-size: 2rem;
     display: flex;
