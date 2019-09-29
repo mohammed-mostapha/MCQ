@@ -902,6 +902,7 @@ a {
     align-items: center;
     justify-content: center;
     background: rgb(28, 131, 138);
+
 }
 
 .scope-of-work-container .aos-init {
@@ -1144,5 +1145,92 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+
+/*social media icons */
+
+.svg-inline--fa.fa-w-18 {
+    width: 2.5rem;
+    height: 2.5rem;
+} 
+
+.svg-inline--fa.fa-w-10 {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+
+.fa-whatsapp {
+    background: #0CB757;
+    border-radius: 50%;
+    padding: 7px;
+    transition: all 0.5s ease;
+}
+
+
+.fa-whatsapp:hover,.fa-whtasapp-f:focus {
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+
+  .fa-whtasapp:hover,.fa-whatsapp:focus {
+    color: #4267B2;
+    background: #fefefe;
+    border-color: #bb0000;
+  }
+
+.fa-facebook-f {
+    background: #4267B2;
+    border-radius: 50%;
+    padding: 7px;
+    transition: all 0.5s ease;
+}
+
+.fa-facebook-f:hover,.fa-facebook-f:focus {
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+
+  .fa-facebook-f:hover,.fa-facebook-f:focus {
+    color: #4267B2;
+    background: #fefefe;
+    border-color: #bb0000;
+  }
+
+.fa-youtube {
+    background: #bb0000;
+    border-radius: 50%;
+    padding: 7px;
+    transition: all 0.5s ease;
+
+  }
+
+
+.fa-youtube:hover,.fa-youtube:focus {
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+
+  .fa-youtube:hover,.fa-youtube:focus {
+    color: #bb0000;
+    background: #fefefe;
+    border-color: #bb0000;
+  }
+
+
+/* end social media icons */
+
+
 
 /*end footer*/

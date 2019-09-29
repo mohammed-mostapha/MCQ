@@ -5,3 +5,7 @@ tasks:
 -search bar
 
 - root x convert to root -1
+
+- coloring of social media links at footer
+
+-Blog post
