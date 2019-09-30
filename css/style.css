@@ -1172,15 +1172,7 @@ a {
     transition: all 0.5s ease;
 }
 
-@media only screen and (max-width: 767px) {
-    .fa-whatsapp {
-        margin-left: -10px;
-    }
 
-    .fa-mobile {
-        margin-left: -15px;
-    }
-}
 
 .fa-whatsapp:hover,.fa-whtasapp-f:focus {
     -webkit-transform: rotate(360deg);
