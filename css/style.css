@@ -101,25 +101,37 @@ html, body {
     padding: 0.7rem;
     background: rgb(61, 147, 228);
     border-radius: 10px;
-    font-size: 2vh;
+    font-size: 3vh;
     color: #fff;
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 271px) {
+    .m1-ch1-details div a {
+        font-size: 2.5vh;
+    }
+}
+
+
+@media only screen and (max-width: 243px) {
+    .m1-ch1-details div a {
+        font-size: 2vh;
+        padding: 0.9rem;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .m1-ch1-details div a {
+        padding: 0.9rem;
+        font-size: 5vh;
+    }
 }
 
 .m1-ch1-details div a svg {
     font-size: 1.5rem !important;
     margin-right: 5px;
 }
-
-
-
-
-@media only screen and (max-width: 243px) {
-    .m1-ch1-details div a {
-        font-size: 1.3vh;
-    }
-}
-
 
 
 .exams-container {
