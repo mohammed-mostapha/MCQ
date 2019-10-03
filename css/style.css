@@ -101,22 +101,9 @@ html, body {
     padding: 0.7rem;
     background: rgb(61, 147, 228);
     border-radius: 10px;
-    font-size: 3vh;
+    font-size: 1rem;
     color: #fff;
     text-decoration: none;
-}
-
-
-@media only screen and (max-width: 271px) {
-    .m1-ch1-details div a {
-        font-size: 2.5vh;
-    }
-}
-
-@media only screen and (orientation: landscape) {
-    .m1-ch1-details div a {
-        font-size: 4vh;
-    }
 }
 
 
