@@ -63,8 +63,8 @@ html, body {
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 !important;
-    height: 100%;
-    
+    height: auto;
+    background: antiquewhite;
 }
 
 .m1-ch1 {
@@ -76,8 +76,13 @@ html, body {
     margin-bottom: 1rem;
 }
 
+.m1-ch1 h3 {
+    font-weight: bold;
+}
+
 .m1-ch1 h6 {
     width: 70%;
+    font-weight: 600;
 }
 .m1-ch1-details {
     /* border: 1px solid blue; */
@@ -95,11 +100,18 @@ html, body {
     box-sizing: border-box;
     padding: 0.7rem;
     background: rgb(61, 147, 228);
-    /* color: #fff; */
     border-radius: 10px;
     font-size: 2vh;
+    color: #fff;
     text-decoration: none;
 }
+
+.m1-ch1-details div a svg {
+    font-size: 1.5rem !important;
+    margin-right: 5px;
+}
+
+
 
 
 @media only screen and (max-width: 243px) {
