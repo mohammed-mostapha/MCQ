@@ -101,7 +101,7 @@ html, body {
     padding: 0.7rem;
     background: rgb(61, 147, 228);
     border-radius: 10px;
-    font-size: 2vh;
+    font-size: 3vh;
     color: #fff;
     text-decoration: none;
 }
@@ -113,20 +113,13 @@ html, body {
     }
 }
 
-
-@media only screen and (max-width: 243px) {
+@media only screen and (orientation: landscape) {
     .m1-ch1-details div a {
-        font-size: 2vh;
-        padding: 0.9rem;
+        font-size: 4vh;
     }
 }
 
-@media only screen and (max-width: 243px) and (orientation: landscape) {
-    .m1-ch1-details div a {
-        padding: 0.9rem;
-        font-size: 5vh;
-    }
-}
+
 
 .m1-ch1-details div a svg {
     font-size: 1.5rem !important;
