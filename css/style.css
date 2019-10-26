@@ -71,7 +71,6 @@ html, body {
     display: flex;
     flex-direction: column;
     border-bottom: 2px solid grey;
-    /* width: 70%; */
     padding: 1rem;
     margin-bottom: 1rem;
 }
@@ -85,8 +84,8 @@ html, body {
     font-weight: 600;
 }
 .m1-ch1-details {
-    /* border: 1px solid blue; */
     display: block;
+    position: relative;
   
 }
 
@@ -340,9 +339,39 @@ html, body {
 
     .wording {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        font-size: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .wording p strong {
+        padding: 5px 5px 0 5px;
+        border-radius: 5px;
+        color: #fff;
+        background: #4186C6;
+        font-weight: 900;
+    }
+
+    .later {
+        width: 100px;
+        border: 3px dashed #3D93E4;
+        transform: rotate(-30deg);
+        position: relative;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        right: 20%;
+        background-color: #fff;
+    }
+    
+    .later p {
+        margin: 0;
+        color: #3D93E4;
+        font-size: 1.5rem;
     }
 
     .proceed {
@@ -351,12 +380,23 @@ html, body {
         margin-bottom: 3rem;
         padding: 0.5rem;
         border-radius: 5px;
-        background-color: lightseagreen;
+        background-color: #4186C6;
+        border: 2px solid transparent;
     }
 
     .proceed a {
         color: #fff;
         text-decoration: none;
+    }
+
+    .proceed:hover {
+        background-color: #fff;
+        border: 2px solid #4186C6;
+        color: #4186C6;
+    }
+
+    .proceed:hover > a {
+        color: #4186C6;
     }
 
 
