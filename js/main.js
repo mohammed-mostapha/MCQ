@@ -249,7 +249,7 @@ $('.evaluator').click(function() {
 
 
 var counter = 0,
-    timeLeft = 1800;
+    timeLeft = 1200;
 
 
 function pad2(number) {   
@@ -320,10 +320,22 @@ $(window).on('load', function() {
 
 /* Later */
 
-    $('.contain-later a').click(function() {
-        window.setInterval(function() {
-            $('.later').toggleClass('flashing');
-        }, 800);
+   
+    var flashing = function(){
+        $('.later').toggleClass('flashing');
+}
+
+    $('.contain-later button').click(function() {
+        
+        window.setInterval(flashing, 800);
+        $('.contain-later button').attr("disabled", true);
+        
+        
     });
+
+
+
+
+
 
 /* end Later */

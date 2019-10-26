@@ -94,15 +94,20 @@ html, body {
 
 }
 
-.m1-ch1-details div a {
+.m1-ch1-details div button {
     width: fit-content;
     box-sizing: border-box;
     padding: 0.7rem;
     background: rgb(61, 147, 228);
+    border: none;
     border-radius: 10px;
     font-size: 1rem;
     color: #fff;
-    text-decoration: none;
+    outline: none;
+}
+
+.m1-ch1-details button a:hover {
+    color: #fff;
 }
 
 
