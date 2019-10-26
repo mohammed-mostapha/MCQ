@@ -316,3 +316,14 @@ $(window).on('load', function() {
 
 /* end About */
 
+
+
+/* Later */
+
+    $('.contain-later a').click(function() {
+        window.setInterval(function() {
+            $('.later').toggleClass('flashing');
+        }, 800);
+    });
+
+/* end Later */
