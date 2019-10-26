@@ -373,6 +373,13 @@ html, body {
         }
     }
 
+    @media only screen and (max-width: 768px) {
+        .later {
+            transform: scale(0.8) rotate(-30deg);
+        }
+    }
+
+
     .later p {
         margin: 0;
         color: #3D93E4;
