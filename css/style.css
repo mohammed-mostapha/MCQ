@@ -106,13 +106,9 @@ html, body {
     outline: none;
 }
 
-.m1-ch1-details button a:hover {
-    color: #fff;
-}
 
 
-
-.m1-ch1-details div a svg {
+.m1-ch1-details div button svg {
     font-size: 1.5rem !important;
     margin-right: 5px;
 }
