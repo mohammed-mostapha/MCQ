@@ -357,17 +357,22 @@ html, body {
         width: fit-content;
         outline: 3px dashed #3D93E4;
         transform: rotate(-30deg);
-        position: relative;
         right: 0;
         display: flex;
         align-items: center;
         justify-content: center;
         position: absolute;
-        top: 0;
-        right: 10%;
+        bottom: 30%;
+        float: right;
         background-color: #fff;
     }
     
+    @media only screen and (min-width: 992px) {
+        .later {
+            right: 50%;
+        }
+    }
+
     .later p {
         margin: 0;
         color: #3D93E4;
