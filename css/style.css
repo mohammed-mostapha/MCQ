@@ -354,8 +354,8 @@ html, body {
     }
 
     .later {
-        width: 100px;
-        border: 3px dashed #3D93E4;
+        width: fit-content;
+        outline: 3px dashed #3D93E4;
         transform: rotate(-30deg);
         position: relative;
         right: 0;
@@ -364,7 +364,7 @@ html, body {
         justify-content: center;
         position: absolute;
         top: 0;
-        right: 20%;
+        right: 10%;
         background-color: #fff;
     }
     
