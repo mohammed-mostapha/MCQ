@@ -29,9 +29,9 @@ function toggleSidebar() {
 
 
 
-/* Physics 1 */
+/* Physics 1-1*/
 
-function result() {
+function resultph1_1() {
     var question1 = document.physics1form.question1.value,
     question2 = document.physics1form.question2.value,
     question3 = document.physics1form.question3.value,
@@ -300,7 +300,7 @@ function setup() {
 
 
 
-/* end physics 1 */
+/* end physics 1-1*/
 
 
 
