@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>References</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- <script src="https://kit.fontawesome.com/c63174035e.js"></script> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="css/fontawesome.css" rel="stylesheet">
+    <link href="css/brands.css" rel="stylesheet">
+    <link href="css/solid.css" rel="stylesheet">
+   
+    <script src="js/all.js"></script>
+    <script defer src="js/brands.js"></script>
+    <script defer src="js/solid.js"></script>
+    <script defer src="js/fontawesome.js"></script>
+
+
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+        .physics_references {
+            height: 200px;        
+        }
+
+        .physics_references .link_container {
+            background: #007BFF;
+        }
+
+        .link_container {
+            width: 100%;
+            height: 100%;
+            background-color: #007BFF;
+            border-radius: 20px;
+        }
+
+        .link_container a {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #007BFF;
+            border-radius: 20px;
+        }
+
+        .link_container a span {
+            font-size: 2rem;
+            color: #fff;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-md-3 col-3 p-4 physics_references">
+
+                <div class="link_container">
+                    <a href="physics_references.html"><span>Phycis references</span></a>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-3 col-3 other_references">
+
+                
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script>
+        
+        var link_container_background_color = $('.link_container').css('background-color');
+        var span_color = $('.link_container a span').css('color');
+        $('.link_container a').hover(function() {
+            $('.link_container a').css({'background-color': span_color})
+            $('.link_container a span').css({'color': link_container_background_color});
+        },function() {
+            $('.link_container a').css({'background-color': link_container_background_color})
+            $('.link_container a span').css({'color': span_color});
+        });
+
+    </script>
+
+
+</body>
+</html>
