@@ -611,13 +611,13 @@ header {
     border-bottom: 1px solid #000;
 }
 
- #body {
+ body {
     position: relative;
     left: 0;
     transition: all 500ms linear;
 }
 
-#body.active {
+body.active {
     left: -10rem;
 }
  
