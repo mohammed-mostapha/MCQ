@@ -11,7 +11,7 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 function toggleSidebar() {
     document.getElementById("sidebar-menu").classList.toggle('active');
-    document.getElementById("body").classList.toggle('active');
+    document.querySelector("body").classList.toggle('active');
 
   }
   
