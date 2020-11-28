@@ -9,6 +9,7 @@ function resultph1_4() {
     question5 = document.physics1form.question5.value,
     question6 = document.physics1form.question6.value,
     question10 = document.physics1form.question10.value,
+    question7 = document.physics1form.question7.value,
     question8 = document.physics1form.question8.value,
     question10 = document.physics1form.question10.value,
     question10 = document.physics1form.question10.value,
