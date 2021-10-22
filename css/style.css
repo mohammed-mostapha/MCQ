@@ -18,7 +18,7 @@ html, body {
     max-width: 100% !important;
     margin: 0 !important;
     padding-top: 2rem;
-    background: url(/images/cubes.gif);
+    background: url(/images/ecamp.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
@@ -66,7 +66,7 @@ html, body {
     max-width: 100% !important;
     margin: 0 !important;
     height: auto;
-    background: antiquewhite;
+    background: linear-gradient(to right, #c4c4c4, #52BABB);
 }
 
 .m1-ch1 {
@@ -100,7 +100,7 @@ html, body {
     width: fit-content;
     box-sizing: border-box;
     padding: 0.7rem;
-    background: rgb(61, 147, 228);
+    background: rgb(57, 79, 168);
     border: none;
     border-radius: 10px;
     font-size: 1rem;
@@ -120,19 +120,19 @@ html, body {
     width: 100%;
     box-sizing: border-box;
     padding: 1rem;
-    border: 5px solid #fff;
+    border: 5px solid #012279;
     border-radius: 10px;
     margin: 0;
     margin-bottom: 5rem;
 }
 
 .exams-container h3 {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #012279;
 }
 
 
 .exams-wording {
-    color: #fff;
+    color: #012279;
     font-size: 2rem;
     display: flex;
     flex-direction: column;
@@ -161,7 +161,7 @@ html, body {
 
 .exams-links a span {
     font-size: 1rem;
-    color: #4186C6;
+    color: #012279;
 }
 
 
@@ -292,6 +292,7 @@ html, body {
 
 .exams-links div div {
     box-sizing: border-box;
+    border: 2px solid #012279;
 }
 
 
@@ -352,7 +353,7 @@ html, body {
         padding: 5px 5px 0 5px;
         border-radius: 5px;
         color: #fff;
-        background: #4186C6;
+        background: rgb(57, 79, 168);
         font-weight: 900;
     }
 
@@ -400,23 +401,28 @@ html, body {
         margin-bottom: 3rem;
         padding: 0.5rem;
         border-radius: 5px;
-        background-color: #4186C6;
+        background-color: rgb(57, 79, 168);
         border: 2px solid transparent;
     }
 
-    .proceed a {
+    .proceed  {
         color: #fff;
         text-decoration: none;
     }
 
     .proceed:hover {
         background-color: #fff;
-        border: 2px solid #4186C6;
-        color: #4186C6;
+        border: 2px solid rgb(57, 79, 168);
+        color: rgb(57, 79, 168);
     }
 
     .proceed:hover > a {
-        color: #4186C6;
+        color: rgb(57, 79, 168);
+        
+    }
+
+    .proceed:focus {
+        box-shadow: none;
     }
 
 
@@ -490,7 +496,7 @@ header {
 .hamburger-container .menu a {
     align-self: flex-end;
     text-decoration: none;
-    color: #4186C6;
+    color: #012279;
     margin: 0 10px;
     padding-top: 1rem;
     font-size: 1.5rem !important;
@@ -525,7 +531,7 @@ header {
 	border-radius: 4px;
 	height: 4px;
 	width: 40px;
-	background: #4186C6;
+	background: #012279;
 	position: relative;
 	display: block;
     content: '';
@@ -603,7 +609,7 @@ header {
 
 #sidebar-menu ul a {
     text-decoration: none;
-    color: #4186C6;
+    color: #012279;
 }
 
 #sidebar-menu ul li {
@@ -680,7 +686,7 @@ body.active {
 
 .quiz-background {
 
-    background: rgb(94, 180, 131);
+    background-image: linear-gradient(to right, #c4c4c4, #52BABB);
 }
 
 #container {
@@ -772,11 +778,15 @@ form {
 .evaluator {
     padding: 0.8rem;
     border-radius: 5px;
-    border: none;
+    border: 1px solid black;
     font-size: 1rem;
     justify-self: center;
     width: 150px;
 
+}
+
+.evaluator:hover {
+    cursor: pointer;
 }
 
 .buttonHolder {
@@ -791,7 +801,7 @@ form {
     width: 150px;
     height: fit-content;
     padding-top: 0.5rem;
-    background: rgb(172, 88, 172);
+    background: rgb(57, 79, 168);
     color: #fff;
     position: fixed;
     top: 0;

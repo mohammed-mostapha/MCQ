@@ -62,11 +62,11 @@ function resultph1_1() {
         document.querySelector('.q1').innerHTML = "1) " + question1 + " <i class='fas fa-times'></i>" + "<br>" +  "  the distance traveled by light in a vacuum" + " <i class='fas fa-check'></i>"+ "<br>"
     }
 
-    if( question2 == "the frequency of radiation emitted by cesium aroms" ) {
+    if( question2 == "the frequency of radiation emitted by cesium atoms" ) {
         correct++;
         document.querySelector('.q2').innerHTML = "2) " + question2 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q2').innerHTML = "2) " +  question2 + " <i class='fas fa-times'></i>" + "<br>" + "  the frequency of radiation emitted by cesium aroms" + " <i class='fas fa-check'></i>" + "<br>"
+        document.querySelector('.q2').innerHTML = "2) " +  question2 + " <i class='fas fa-times'></i>" + "<br>" + "  the frequency of radiation emitted by cesium atoms" + " <i class='fas fa-check'></i>" + "<br>"
 
     }
 
@@ -110,11 +110,11 @@ function resultph1_1() {
 
     }
 
-    if( question8 == "4.8 x 10<sup>-4</sup>" ) {
+    if( question8 == "mgh" ) {
         correct++;
         document.querySelector('.q8').innerHTML = "8) " + question8 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q8').innerHTML = "8) " + question8 + " <i class='fas fa-times'></i>" + "<br>" +  "  4.8 x 10<sup>-4</sup>" + " <i class='fas fa-check'></i>"+ "<br>"
+        document.querySelector('.q8').innerHTML = "8) " + question8 + " <i class='fas fa-times'></i>" + "<br>" +  "  mgh" + " <i class='fas fa-check'></i>"+ "<br>"
 
     }
 
@@ -134,27 +134,27 @@ function resultph1_1() {
 
     }
 
-    if( question11 == "3.5 x 10<sup>2</sup>" ) {
+    if( question11 == "mv" ) {
         correct++;
         document.querySelector('.q11').innerHTML = "11) " + question11 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q11').innerHTML = "11) " + question11 + " <i class='fas fa-times'></i>" + "<br>" +  "  3.5 x 10<sup>2</sup>" + " <i class='fas fa-check'></i>" + "<br>" 
+        document.querySelector('.q11').innerHTML = "11) " + question11 + " <i class='fas fa-times'></i>" + "<br>" +  "  mv" + " <i class='fas fa-check'></i>" + "<br>" 
 
     }
 
-    if( question12 == "7.26 x 10<sup>3</sup> kg/m<sup>3</sup>" ) {
+    if( question12 == "LT<sup>-3</sup>" ) {
         correct++;
         document.querySelector('.q12').innerHTML = "12) " + question12 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q12').innerHTML = "12) " + question12 + " <i class='fas fa-times'></i>" + "<br>" +  "  7.26 x 10<sup>3</sup> kg/m<sup>3</sup>" + " <i class='fas fa-check'></i>" + "<br>" 
+        document.querySelector('.q12').innerHTML = "12) " + question12 + " <i class='fas fa-times'></i>" + "<br>" +  "  LT<sup>-3</sup>" + " <i class='fas fa-check'></i>" + "<br>" 
 
     }
 
-    if( question13 == 0.0012 ) {
+    if( question13 == "mv<sup>2</sup>/r" ) {
         correct++;
         document.querySelector('.q13').innerHTML = "13) " + question13 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q13').innerHTML = "13) " + question13 + " <i class='fas fa-times'></i>" + "<br>" +  ' ' + 0.0012 + " <i class='fas fa-check'></i>" + "<br>" 
+        document.querySelector('.q13').innerHTML = "13) " + question13 + " <i class='fas fa-times'></i>" + "<br>" +  ' ' + "mv<sup>2</sup>/r" + " <i class='fas fa-check'></i>" + "<br>" 
 
     }
 
@@ -174,11 +174,11 @@ function resultph1_1() {
 
     }
 
-    if( question16 == "3.25 x 10<sup>-10</sup>" ) {
+    if( question16 == "False" ) {
         correct++;
         document.querySelector('.q16').innerHTML = "16) " + question16 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q16').innerHTML = "16) " + question16 + " <i class='fas fa-times'></i>" + "<br>" +  "  3.25 x 10<sup>-10</sup>" + " <i class='fas fa-check'></i>" + "<br>" 
+        document.querySelector('.q16').innerHTML = "16) " + question16 + " <i class='fas fa-times'></i>" + "<br>" +  "  False" + " <i class='fas fa-check'></i>" + "<br>" 
 
     }
 
@@ -198,11 +198,11 @@ function resultph1_1() {
 
     }
 
-    if( question19 == 1133 ) {
+    if( question19 == "0.5 kg" ) {
         correct++;
         document.querySelector('.q19').innerHTML = "19) " + question19 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q19').innerHTML = "19) " + question19 + " <i class='fas fa-times'></i>" + "<br>" +  " " + 1133 + " <i class='fas fa-check'></i>" + "<br>" 
+        document.querySelector('.q19').innerHTML = "19) " + question19 + " <i class='fas fa-times'></i>" + "<br>" +  " " + "0.5 kg" + " <i class='fas fa-check'></i>" + "<br>" 
 
     }
 
