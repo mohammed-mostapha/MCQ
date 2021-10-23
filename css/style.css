@@ -12,6 +12,10 @@ html, body {
     overflow-x: hidden;
 }
 
+#defaultCanvas0 {
+    display: none;
+}
+
 .homepage_container {
     width: 100% !important;
     height: auto;
@@ -746,12 +750,11 @@ form {
 #physics1form h1 {
     width: fit-content;
     border-bottom: 5px solid #000;
+    text-align: center;
 }
 
-
-#physics1form h3 {
-    width: fit-content;
-    border-bottom: 5px dotted #000;
+#physics1form h2,h3 {
+    text-align: center;
 }
 
 
@@ -1173,8 +1176,8 @@ a {
 .page-footer {
     background: rgb(27, 27, 29);
     color: #fff;
-    position: relative;
-    top: 100%;
+    /* position: relative;
+    top: 100%; */
 }
 
 .list-unstyled li a {
