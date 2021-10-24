@@ -471,16 +471,9 @@ header {
 }
 
 .logo img {
-    height: 100%;
-    width: 80%;
+    height: 50%;
+    width: 50%;
 }
-
-@media only screen and (max-width: 992px) {
-    .logo img {
-        height: 80%;
-    }
-}
-
 
 
 .hamburger-container {
