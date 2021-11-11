@@ -173,7 +173,7 @@ function resultph1_3() {
     }
 
 
-    if( question12 == "the water level in tle pitcher remains the same" ) {
+    if( question12 == "the water level in the pitcher remains the same" ) {
         correct++;
         document.querySelector('.q12').innerHTML = "12) " + question12 + " <i class='fas fa-check'></i>";
     }else {

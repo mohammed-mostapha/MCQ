@@ -673,6 +673,7 @@ body.active {
 
 .quiz-background {
     background: #52BABB;
+    overflow: hidden;
 }
 
 #container {
