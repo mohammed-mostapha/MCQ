@@ -155,11 +155,11 @@ function resultph1_midterm() {
     }
 
 
-    if( question14 == "Yield point" ) {
+    if( question14 == "the breaking stress (the tensile strength)" ) {
         correct++;
         document.querySelector('.q14').innerHTML = "14) " + question14 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q14').innerHTML = "14) " + question14 + " <i class='fas fa-times'></i>" + "<br>" +  "  Yield point" + " <i class='fas fa-check'></i>" + "<br>" 
+        document.querySelector('.q14').innerHTML = "14) " + question14 + " <i class='fas fa-times'></i>" + "<br>" +  "  the breaking stress (the tensile strength)" + " <i class='fas fa-check'></i>" + "<br>" 
 
     }
 
@@ -221,7 +221,7 @@ function resultph1_midterm() {
         correct++;
         document.querySelector('.q21').innerHTML = "21) " + question21 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q21').innerHTML = "21) " + question21 + " <i class='fas fa-times'></i>" + "<br>" +  "  the water level in tle pitcher remains the same" + " <i class='fas fa-check'></i>" + "<br>" 
+        document.querySelector('.q21').innerHTML = "21) " + question21 + " <i class='fas fa-times'></i>" + "<br>" +  "  the water level in the pitcher remains the same" + " <i class='fas fa-check'></i>" + "<br>" 
 
     }
 
@@ -237,11 +237,11 @@ function resultph1_midterm() {
 
 
 
-    if( question23 == "Not change" ) {
+    if( question23 == "not change" ) {
         correct++;
         document.querySelector('.q23').innerHTML = "23) " + question23 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q23').innerHTML = "23) " + question23 + " <i class='fas fa-times'></i>" + "<br>" +  "  Not change" + " <i class='fas fa-check'></i>" + "<br>" 
+        document.querySelector('.q23').innerHTML = "23) " + question23 + " <i class='fas fa-times'></i>" + "<br>" +  "  not change" + " <i class='fas fa-check'></i>" + "<br>" 
 
     }
 
@@ -400,15 +400,15 @@ function resultph1_midterm() {
         images = ["../images/success.gif","../images/passed.png", "../images/mr.bean fail.gif"],
         range;
 
-        if ( correct < 39 ) {
+        if ( correct < 26 ) {
             range = 2;
         }
 
-        if ( correct >= 39 && correct < 40 ) {
+        if ( correct >= 26 && correct < 33 ) {
             range = 1;
         }
 
-        if ( correct > 39 ) {
+        if ( correct > 33 ) {
             range = 0;
         }
     
