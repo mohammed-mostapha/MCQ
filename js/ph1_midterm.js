@@ -126,11 +126,11 @@ function resultph1_midterm() {
 
     }
 
-    if( question11 == "3.142" ) {
+    if( question11 == "3.141" ) {
         correct++;
         document.querySelector('.q11').innerHTML = "11) " + question11 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q11').innerHTML = "11) " + question11 + " <i class='fas fa-times'></i>" + "<br>" +  "  3.142" + " <i class='fas fa-check'></i>" + "<br>" 
+        document.querySelector('.q11').innerHTML = "11) " + question11 + " <i class='fas fa-times'></i>" + "<br>" +  "  3.141" + " <i class='fas fa-check'></i>" + "<br>" 
 
     }
 
@@ -266,11 +266,11 @@ function resultph1_midterm() {
 
 
 
-    if( question26 == "590 000N/m<sup>2</sup>" ) {
+    if( question26 == "600000N/m<sup>2</sup>" ) {
         correct++;
         document.querySelector('.q26').innerHTML = "26) " + question26 + " <i class='fas fa-check'></i>";
     }else {
-        document.querySelector('.q26').innerHTML = "26) " + question26 + " <i class='fas fa-times'></i>" + "<br>" +  "  590 000N/m<sup>2</sup>" + " <i class='fas fa-check'></i>" + "<br>" 
+        document.querySelector('.q26').innerHTML = "26) " + question26 + " <i class='fas fa-times'></i>" + "<br>" +  "  600000N/m<sup>2</sup>" + " <i class='fas fa-check'></i>" + "<br>" 
 
     }
 
